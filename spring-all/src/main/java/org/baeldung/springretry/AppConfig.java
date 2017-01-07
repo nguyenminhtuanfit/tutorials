@@ -35,7 +35,7 @@ public class AppConfig {
         SimpleRetryPolicy retryPolicy = new SimpleRetryPolicy();
         retryPolicy.setMaxAttempts(2);
         retryTemplate.setRetryPolicy(retryPolicy);
-	    ///test abc
+	    ///test abc  ewrwerw
         retryTemplate.registerListener(new DefaultListenerSupport());
         return retryTemplate;
     }
